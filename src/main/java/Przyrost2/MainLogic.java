@@ -99,7 +99,7 @@ public class MainLogic {
         CompanyCar newCompanyCar = new CompanyCar();
         newCompanyCar.setCarModel("Fiesta-" + new Random().nextInt());
         newCompanyCar.setCarBrand("Ford-" + new Random().nextInt());
-        //newCompanyCar.setRegistrationNumber("PO AB3" + new Random(99));
+        newCompanyCar.setRegistrationNumber("ABC");
         companyCarList.add(newCompanyCar);
         entityManager.persist(newCompanyCar);
         entityManager.flush();

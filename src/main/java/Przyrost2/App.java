@@ -15,7 +15,7 @@ public class App
             entityManagerFactory = Persistence.createEntityManagerFactory("hibernate");
             entityManager = entityManagerFactory.createEntityManager();
         } catch (Exception ex) {
-            System.out.println("ERR: " + ex.getMessage());
+            System.out.println("ERR: " + ex.getCause());
         }
 
         MainLogic mainLogic = new MainLogic();

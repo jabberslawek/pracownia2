@@ -7,7 +7,7 @@
         <!--<provider>org.hibernate.jpa.HibernatePersistenceProvider    </provider>-->
             <properties>
                 <!-- Configuring JDBC properties -->
-                <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/pracownia_prog"/>
+                <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost/zadanie"/>
                 <property name="javax.persistence.jdbc.user" value="postgres"/>
                 <property name="javax.persistence.jdbc.password" value="postgre"/>
                 <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver" />

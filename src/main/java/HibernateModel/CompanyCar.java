@@ -7,11 +7,11 @@ import javax.persistence.*;
 
 public class CompanyCar {
 
-    @Id @GeneratedValue
+    @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private int id;
 
-    @Column(name = "Numer_rejestracyjny")
+    @Column(name = "Numer_rejestracyjny", length = 100)
     private String registrationNumber;
 
     @Column(name = "Marka_pojazdu")
